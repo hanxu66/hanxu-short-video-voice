@@ -16,9 +16,11 @@
 
 **把你的想法整理成讲得清楚、适合你说出口的短视频口播稿。**
 
-用户试用版 **v0.1.7**，包含论点、论证、结构和文风。有本人语料就学习；没有历史语料，从这次对话与改稿逐步校准。你不需要先建语料库，也不必先安装整套内容生产系统。
+用户试用版 **v0.1.8**，包含论点、论证、结构和文风。有本人语料就学习；没有历史语料，从这次对话与改稿逐步校准。你不需要先建语料库，也不必先安装整套内容生产系统。
 
-[下载独立安装包](https://github.com/hanxu66/hanxu-short-video-voice/releases/download/v0.1.7/hanxu-script-agent-v0.1.7.zip) · [快速上手](docs/quickstart.md) · [看完整演示](docs/examples.md) · [独立包说明](https://github.com/hanxu66/hanxu-short-video-voice#readme)
+这版补齐了开头和段落承接的写法。已有具体观点、后文接得住时，可以从观点开始。真实案例也可以直接接开头，帮观众更快理解同一个问题。写稿时逐段检查观众接下来想知道什么，以及这一段给了什么新信息。
+
+[下载独立安装包](https://github.com/hanxu66/hanxu-short-video-voice/releases/download/v0.1.8/hanxu-script-agent-v0.1.8.zip) · [快速上手](docs/quickstart.md) · [看完整演示](docs/examples.md) · [独立包说明](https://github.com/hanxu66/hanxu-short-video-voice#readme)
 
 ## 适合怎样的任务
 
@@ -108,4 +110,4 @@ $hanxu-script-agent
 
 ## 下载与源码
 
-[GitHub源码](https://github.com/hanxu66/hanxu-short-video-voice) · [本版ZIP](https://github.com/hanxu66/hanxu-short-video-voice/releases/download/v0.1.7/hanxu-script-agent-v0.1.7.zip)。下载后解压完整目录，按上面的输入示例开始。
+[GitHub源码](https://github.com/hanxu66/hanxu-short-video-voice) · [本版ZIP](https://github.com/hanxu66/hanxu-short-video-voice/releases/download/v0.1.8/hanxu-script-agent-v0.1.8.zip)。下载后解压完整目录，按上面的输入示例开始。

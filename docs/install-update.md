@@ -1,6 +1,6 @@
 # 短视频口播文风｜安装与更新
 
-> 方法版本：0.1.7。安装完整目录，个人资料与技能文件分开保存。
+> 方法版本：0.1.8。安装完整目录，个人资料与技能文件分开保存。
 
 ## 1. 安装完整技能
 
@@ -13,7 +13,7 @@
 **从GitHub安装：**将下段复制到自己的Codex对话中：
 
 ```text
-请用 $skill-installer 从 https://github.com/hanxu66/hanxu-short-video-voice/tree/v0.1.7 的仓库根目录安装 短视频口播文风 Skill，技能标识为 hanxu-script-agent。先识别当前实际执行的电脑和系统，保留完整目录，核对入口与配套引用。已有同名或旧名版本时先确认正在使用的位置、保留本地修改并备份到技能发现目录之外；不要覆盖个人资料、维护源码或其他Skill。安装失败恢复旧版；成功后报告实际位置和读取到的版本。
+请用 $skill-installer 从 https://github.com/hanxu66/hanxu-short-video-voice/tree/v0.1.8 的仓库根目录安装 短视频口播文风 Skill，技能标识为 hanxu-script-agent。先识别当前实际执行的电脑和系统，保留完整目录，核对入口与配套引用。已有同名或旧名版本时先确认正在使用的位置、保留本地修改并备份到技能发现目录之外；不要覆盖个人资料、维护源码或其他Skill。安装失败恢复旧版；成功后报告实际位置和读取到的版本。
 ```
 
 不要只复制 `SKILL.md`，也不要把整个开发仓库误当技能。GitHub源码的仓库根目录直接包含 `SKILL.md`；下载Source code ZIP时按这个位置找到入口，不把上层包装目录一起安装。
@@ -70,10 +70,10 @@
 
 ## WorkBuddy：Windows 与 macOS 的安装、更新和接续
 
-Windows 11 的 WorkBuddy 5.9.3 曾以资料包v60实际完成以下操作；macOS 5.9.3 的 ZIP 导入、写稿、改稿及记录接续也有实测。历史流程试验不能证明当前v0.1.7已在Windows通过首稿质量验收；各系统、包版本与限制见[平台指南](platforms.md#当前验证状态)。
+Windows 11 的 WorkBuddy 5.9.3 曾以资料包v60实际完成以下操作；macOS 5.9.3 的 ZIP 导入、写稿、改稿及记录接续也有实测。历史流程试验不能证明后续版本已在Windows通过首稿质量验收；各系统、包版本与限制见[平台指南](platforms.md#当前验证状态)。
 
 1. 从 [WorkBuddy 官网](https://www.workbuddy.cn/)下载适合本机的客户端并登录。使用你自己的账号和可用额度，本 Skill 不附模型额度，也不要求购买付费套餐。
-2. [下载完整 Skill ZIP](https://github.com/hanxu66/hanxu-short-video-voice/releases/download/v0.1.7/hanxu-script-agent-v0.1.7.zip)。打开「专家·技能·连接器 → 技能 → 添加技能 → 上传技能」，点底部「选择 ZIP 文件」，选择这个原包。等待常规检测，按实际结果处理，再继续安装；不要跳过检测。
+2. [下载完整 Skill ZIP](https://github.com/hanxu66/hanxu-short-video-voice/releases/download/v0.1.8/hanxu-script-agent-v0.1.8.zip)。打开「专家·技能·连接器 → 技能 → 添加技能 → 上传技能」，点底部「选择 ZIP 文件」，选择这个原包。等待常规检测，按实际结果处理，再继续安装；不要跳过检测。
 3. 在「已安装」列表确认 `hanxu-script-agent` 已启用。展示名是“短视频口播文风助手”，不是另一个技能。
 4. 建一个自己的内容文件夹。WorkBuddy 新任务下方选择「选择工作空间 → 打开本地文件夹」，绑定它。稿件、来源、反馈和作者表达记录都放这里，不能放到 Skill 安装目录。多人各有子目录。
 5. 开始写稿时说“请使用已安装的短视频口播文风助手（hanxu-script-agent）”，附题目、听众、判断和材料即可；不用输入 Codex 的 `$` 标记。没有历史语料也可开始。也可在输入框的「+ → 技能」中选择已安装的 `hanxu-script-agent`。选择技能成功只说明调用入口可用，仍须核对实际结果。

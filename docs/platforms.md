@@ -2,11 +2,11 @@
 
 [返回介绍](../README.md) · [快速上手](quickstart.md) · [检查范围](trial-and-feedback.md)
 
-本助手 v0.1.7 使用同一份技能包，提供 Codex 和 WorkBuddy 两条使用入口。写稿、语料学习和改稿不要求 Python、WSL、Bash 或管理员权限；Python 3 只用于可选的正文证据校验。需要宿主能够加载 Skill 并读取配套参考文件。这里的适配范围只指本助手。
+本助手 v0.1.8 使用同一份技能包，提供 Codex 和 WorkBuddy 两条使用入口。写稿、语料学习和改稿不要求 Python、WSL、Bash 或管理员权限；Python 3 只用于可选的正文证据校验。需要宿主能够加载 Skill 并读取配套参考文件。这里的适配范围只指本助手。
 
 ## 在 WorkBuddy 中使用
 
-1. [下载独立 ZIP](https://github.com/hanxu66/hanxu-short-video-voice/releases/download/v0.1.7/hanxu-script-agent-v0.1.7.zip)，保留原包。
+1. [下载独立 ZIP](https://github.com/hanxu66/hanxu-short-video-voice/releases/download/v0.1.8/hanxu-script-agent-v0.1.8.zip)，保留原包。
 2. 打开 WorkBuddy，在左侧「专家·技能·连接器」中选择「技能」，进入「添加技能 → 上传技能」，再点弹窗底部的 **「选择 ZIP 文件」**，选择下载的原包。5.9.3的中央大上传区会打开文件夹选择器；选择ZIP要用底部入口，不要把ZIP所在目录当成技能目录。
 3. 在「已安装」里确认 `hanxu-script-agent`／“短视频口播文风助手”已启用。界面名称可能随客户端版本变化，以当时界面为准。
 4. 新建任务，选择存放本人资料的工作目录。向它说：
@@ -77,7 +77,7 @@ python3 "/实际安装位置/hanxu-script-agent/scripts/check_short_video_script
 | Windows云运行器 | Windows Server 2025、Python 3.12.10中实际PowerShell解压；ZIP/SOURCE哈希与引用、中文/空格路径、9种编码组合、旧证据拒收、作者否定、覆盖保护及作者记录跨进程读写，共13项运行检查 | Windows 10桌面、Windows版Codex，以及不同于上述历史试验的当前包客户端结果 |
 | macOS WorkBuddy 5.9.3 | 官方安装、用户登录、ZIP导入及启用；两位虚构作者分别完成有/无语料写稿、指定末段返修、作者记录保存和新聊天换题回读；中文/空格工作目录实际读写 | 其他客户端版本、当前包在Windows的复测、目标作者实际口吻与采用 |
 
-2026-10-31的macOS独立复测：方法v0.1.6、资料包v62，在WorkBuddy 5.9.3、Kimi-K3.1-Pro中，以完整原案输入完成写稿并实际复制回复，检查了正文含义、证据范围、样本隔离和文字预算。该结果仅支持此版本、模型和案例，不能据此认定v0.1.7或其他模型已通过；真人听感、实际时长及作者采用仍未验证。
+2026-10-31的macOS独立复测：方法v0.1.6、资料包v62，在WorkBuddy 5.9.3、Kimi-K3.1-Pro中，以完整原案输入完成写稿并实际复制回复，检查了正文含义、证据范围、样本隔离和文字预算。该结果仅支持此版本、模型和案例，不能据此认定后续版本或其他模型已通过；真人听感、实际时长及作者采用仍未验证。
 
 v0.1.2本轮已在macOS上的WorkBuddy 5.9.3通过官方ZIP导入、启用和参考文件读取，并使用“快速”（DeepSeek-V4.1-Flash）完成相近题材、样本带历史请求的合成口播任务。样本中的业务细节没有进入口播，也未触发索要历史表格；正文保留本题主旨。试跑仍发现个别推测和作者记录分类需局部纠正，不能承诺自动消除所有内容错误。
 
